@@ -96,3 +96,12 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  array.each_with_index do |element, index|
+    unless index == 2
+      element + "s"
+    end
+  end
+  array
+end
