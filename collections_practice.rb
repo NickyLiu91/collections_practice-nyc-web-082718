@@ -7,10 +7,9 @@ def sort_array_asc(array)
       array[i] = array[i + 1]
       array[i + 1] = value
       i = 0
-      puts array[i]
-      puts array[i+1]
     else
       i += 1
     end
   end
+  array
 end
