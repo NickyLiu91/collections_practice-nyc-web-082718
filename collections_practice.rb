@@ -100,7 +100,7 @@ end
 def add_s(array)
   array.each_with_index do |element, index|
     unless index == 2
-      element + "s"
+      element += "s"
     end
   end
   array
