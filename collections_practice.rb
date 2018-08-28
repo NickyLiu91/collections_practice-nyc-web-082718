@@ -86,4 +86,5 @@ def find_a(array)
   array.each do |word|
     new_array << word if word.include?("a")
   end
+  new_array
 end
