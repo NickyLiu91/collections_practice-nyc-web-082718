@@ -71,3 +71,11 @@ def reverse_array(array)
   end
   array
 end
+
+def kesha_maker(array)
+  new_array = []
+  array.each do |string|
+    new_array << string[2] = "$"
+  end
+  new_array
+end
