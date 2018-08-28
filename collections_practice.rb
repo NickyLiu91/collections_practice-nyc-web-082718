@@ -30,7 +30,7 @@ def sort_array_desc(array)
   array
 end
 
-def sort_array_char_count
+def sort_array_char_count(array)
   i = 0
   while i < array.length - 1
     if array[i].length > array[i + 1].length
