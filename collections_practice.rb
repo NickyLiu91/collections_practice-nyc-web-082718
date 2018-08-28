@@ -83,7 +83,7 @@ end
 
 def find_a(array)
   new_array = []
-  if array.include?("a") do |word|
-    new_array << word
+  array.each do |word|
+    new_array << word if word.include?("a")
   end
 end
