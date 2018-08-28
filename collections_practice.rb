@@ -44,3 +44,10 @@ def sort_array_char_count(array)
   end
   array
 end
+
+def swap_elements(array, index, destination)
+  value = array[destination]
+  array[destination] = array[index]
+  array[index] = array[destination]
+  array
+end
