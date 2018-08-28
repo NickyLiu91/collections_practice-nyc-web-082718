@@ -45,6 +45,12 @@ def sort_array_char_count(array)
   array
 end
 
+def swap_elements(array)
+  value = array[2]
+  array[2] = array[1]
+  array[1] = value
+end
+
 def swap_elements_from_to(array, index, destination)
   value = array[destination]
   array[destination] = array[index]
