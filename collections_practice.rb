@@ -98,10 +98,11 @@ def sum_array(array)
 end
 
 def add_s(array)
+  new_array = []
   array.each_with_index do |element, index|
     unless index == 2
-      element += "s"
+      new_array << element + "s"
     end
   end
-  array
+  new_array
 end
